@@ -1,0 +1,136 @@
+/* You can add global styles to this file, and also import other style files */
+
+.logo img{
+  width: 190px;
+  padding-left: 120px;
+}
+
+.header {
+  display:flex;
+  background-color:#362116;
+
+}
+
+.menu_right{
+  display:flex;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 500px;
+
+}
+.menu_right li a{
+  text-decoration: none;
+  padding-left: 25px;
+  line-height: 20px;
+  color: white;
+ font-family: 'Montserrat', sans-serif;;
+
+}
+
+.menu_right li{
+  list-style: none;
+
+}
+.container_home img{
+  width: 100%;
+}
+.best_product img{
+  width: 100%;
+  height: 100%;
+}
+.best_product{
+  display: flex;
+  list-style: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.best_product li{
+  padding-left: 12px;
+  padding-right: 12px;
+  position: relative;
+
+}
+button{
+  position:absolute;
+  top: 150px;
+  left: 35px;
+  background-color:  #575454;
+  border: none;
+  width: 90px;
+  height: 50px;
+  font-size: 16px;
+}
+.best_product button{
+color: white;
+}
+.best_product li{
+  overflow: hidden;
+}
+.best_product li:hover img{
+  transform: scale(1.1);
+}
+.best_product li:hover button{
+  background-color: #362116;
+}
+.text{
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.pro{
+  display:flex;
+  list-style: none;
+  padding-top: 12px;
+
+}
+.product li{
+ flex-basis: 25%;
+ padding-left: 12px;
+ padding-right: 12px;
+}
+.product li img{
+ max-width: 100%;
+ height: auto;
+}
+.product li p{
+  font-size: 20px;
+  font-family:"Sans serif";
+  font-weight: bold;
+  text-align: center;
+}
+
+/*footer*/
+.footer{
+  list-style: none;
+  overflow: hidden;
+  display:flex;
+
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+.footer div h3{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.footer div h3{
+
+  padding-left: 50px;
+  padding-right: 50px;
+  color:white;
+}
+.footer{
+  background-color: #333;
+  width: 100%;
+  height: 100%;
+}
+.p{
+  text-align: center;
+}
+
+
+
+

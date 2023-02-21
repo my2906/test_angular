@@ -1,0 +1,21 @@
+<h2>Danh sách sản phẩm</h2>
+<table border="1">
+  <tr>
+    <td>ID</td>
+    <td>Tên sản phẩm</td>
+    <td> Hình ảnh</td>
+  </tr>
+
+  <tr *ngFor="let pro of products">
+    <td> {{pro.id}}</td>
+    <td> {{pro.name}}</td>
+    <td class="anh"><img src="{{pro.img}}" alt=""> </td>
+    <td>
+      <a href="javascript:void()" (click)="onDelete(pro.id)"> Xóa</a>
+    </td>
+  </tr>
+</table>
+
+
+
+

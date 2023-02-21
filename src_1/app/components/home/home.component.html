@@ -1,0 +1,35 @@
+  <div class="container_home">
+    <img src="assets/img/baner2.png" alt="">
+  </div>
+  <div class="best_product">
+    <li>
+      <img src="assets/img/pert1.png" alt="" srcset="">
+    <button>Mua ngay</button>
+    </li>
+    <li>
+      <img src="assets/img/pert1.png" alt="" srcset="">
+      <button>Mua ngay</button>
+    </li>
+    <li>
+      <img src="assets/img/pert1.png" alt="" srcset="">
+      <button>Mua ngay</button>
+    </li>
+  </div>
+
+  <div class="text">
+    <p>HẠT DÀNH CHO MÈO</p>
+  </div>
+  <div class="pro">
+  <div class="product" *ngFor="let pro of products">
+    <li>
+      <img src="{{pro.img}}" alt="">
+    </li>
+    <li>
+      <p>{{pro.name}}</p>
+    </li>
+  </div>
+
+
+  </div>
+
+
